@@ -1,0 +1,23 @@
+p{
+	color: whitesmoke;
+	text-align: justify;
+	margin: 50px;
+	background-color: darkblue;
+	padding: 15px;
+	border: 5px dotted; royalblue;
+}
+h1{
+	color: ghostwhite; !important;
+	font-family: "arial";
+	font-size: 50px;
+	text-align: center;
+}
+
+#parrafo{
+	border: 10px solid whitesmoke;
+	border-radius: 20px;
+}
+
+.parrafos{
+	font-weight: bold;
+}

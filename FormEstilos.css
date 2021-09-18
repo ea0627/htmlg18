@@ -1,0 +1,49 @@
+body{
+	background-color: lightblue;
+	background-image: url("html/Imagenes/OIP.jpg");
+	background-repeat: repeat-x repeat-y;
+}
+
+#formulario{
+	margin: 0 auto;
+	width: 400px;
+	background-color: blueviolet;
+	margin-top: 200px;
+	padding: 30px;
+}
+
+#formulario label{
+	float: left;
+	width: 150px;
+	color: white;
+}
+
+#formulario input{
+	width: 200px;
+}
+
+#formulario textarea{
+	width: 200px;
+}
+
+.campos{
+	margin-top: 10px;
+}
+
+#botones{
+	margin-left: 150px;
+}
+
+#formulario input[type="submit"], #formulario input[type="reset"]{
+	width: 100px;
+	background-color: orange;
+	color: white;
+	border-color: green;
+	cursor: pointer;
+}
+
+#formulario input[type="submit"]:hover, #formulario input[type="reset"]:hover{
+	background-color: green;
+	color: yellow;
+	border-color: green;
+}
